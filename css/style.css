@@ -1,8 +1,8 @@
-body
+*
 {
     margin: 0;
     padding: 0;
-    width: 1360px;
+    box-sizing: border-box;
     
 }
 
@@ -45,24 +45,18 @@ body
     margin: 31px 0px 0px 59px;
 }
 
-.Inscricao
-{
-    margin: 168.17px 190px 0px 20.14px;
-    width: 494px;
-    height: 271.75px;
-}
 
-.Titulo
+
+.Inscricao h1
 {
+    margin-top: 190px;
     color: aliceblue;
     font-family: "Titillium Web", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 80px;
-    margin-top: 15px;
-    margin-right: 10px;
-    margin-left: -15px;
-    white-space: nowrap;
+    
+    
 }
 
 .CarrosselInscricao p
@@ -70,18 +64,38 @@ body
     font-size: 25px;
     font-family: "Roboto", sans-serif;
     color: #fff;
-    margin-top: -55.9px ;
-    margin-left: 31px;;
+    margin:19.09px 0px 0px 52.14px
+    
 }
-.CarrosselInscricao button
+.CarrosselInscricao div
 {
     width: 257px;
     height: 63px;
-    padding: 16.14px 48px 16.14px 48px;
+    margin: 60.48px 0px 0px 139.14px;
+    padding: 16.14px 0px 16.14px 65px;
     border-radius: 15px;
     background-color: #C31616;
     color: #fff;
     font-size: 25px;
     font-family: "Roboto", sans-serif;
+    
 }
 
+.Jogos{
+    background-color: black;
+    height: 120px;
+} 
+
+.posicionamento-jogos{
+    height: 100%;
+}
+
+.posicionamento-jogos img
+{
+    margin-left: 94px;
+}
+
+.ImgCS
+{
+    margin-top: 27px;
+}

@@ -1,0 +1,87 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 1360px;
+    
+}
+
+.Cabeçalho
+{
+    background: #1E1C21;
+    display: flex;
+}
+
+.Logo
+{
+    width: 282px;
+    height: 30.75px;
+    margin: 25.62px 0px 25.62px 140px;
+    
+}
+
+.Menu
+{
+    margin: 29.73px 0px 28.07px 200px;
+}
+
+.ItensMenu
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    padding-left: 20px;
+    color: #fff;
+}
+
+.CarrosselInscricao
+{
+    background: linear-gradient(to right, #ff0000, #000000);
+    display: flex;
+}
+
+.Banner
+{
+    margin: 31px 0px 0px 59px;
+}
+
+.Inscricao
+{
+    margin: 168.17px 190px 0px 20.14px;
+    width: 494px;
+    height: 271.75px;
+}
+
+.Titulo
+{
+    color: aliceblue;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 80px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: -15px;
+    white-space: nowrap;
+}
+
+.CarrosselInscricao p
+{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    margin-top: -55.9px ;
+    margin-left: 31px;;
+}
+.CarrosselInscricao button
+{
+    width: 257px;
+    height: 63px;
+    padding: 16.14px 48px 16.14px 48px;
+    border-radius: 15px;
+    background-color: #C31616;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+}
+

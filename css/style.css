@@ -81,21 +81,44 @@
     
 }
 
-.Jogos{
-    background-color: black;
-    height: 120px;
-} 
-
-.posicionamento-jogos{
-    height: 100%;
+.ListaDeJogos
+{
+    display: flex;
+    background: #000000;
+    height: 121px;
 }
 
-.posicionamento-jogos img
+.ListaDeJogos ul
 {
-    margin-left: 94px;
+    display: flex;
 }
 
-.ImgCS
+.ListaDeJogos li
 {
-    margin-top: 27px;
+    padding-left: 94px;
+}
+
+.im1
+{
+    margin-top: 41px;
+}
+
+.im2
+{
+    margin-top: 32px;
+}
+
+.im3
+{
+    margin-top: 29px;
+}
+
+.im4
+{
+    margin-top: 49px;
+}
+
+.im5
+{
+    margin-top: 36px;
 }

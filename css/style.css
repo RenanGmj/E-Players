@@ -5,6 +5,10 @@
     box-sizing: border-box;
     
 }
+body
+{
+    height: 2403px;
+}
 
 .Cabeçalho
 {
@@ -69,12 +73,20 @@
 }
 .CarrosselInscricao div
 {
+    
     width: 257px;
     height: 63px;
     margin: 60.48px 0px 0px 139.14px;
     padding: 16.14px 0px 16.14px 65px;
     border-radius: 15px;
     background-color: #C31616;
+    
+    
+}
+
+.CarrosselInscricao a
+{
+    text-decoration: none;
     color: #fff;
     font-size: 25px;
     font-family: "Roboto", sans-serif;
@@ -102,23 +114,71 @@
 {
     margin-top: 41px;
 }
-
 .im2
 {
     margin-top: 32px;
 }
-
 .im3
 {
     margin-top: 29px;
 }
-
 .im4
 {
     margin-top: 49px;
 }
-
 .im5
 {
     margin-top: 36px;
 }
+
+.Ofertas
+{
+    background: #1E1C21;
+}
+.SubT
+{
+    display: inline-block;
+    color: #fff;
+    font-size: 27px;
+    font-family: "Roboto", sans-serif;
+    margin: 29px 0px 0px 140px;
+
+}
+
+.Produto
+{
+    margin: 36px 0px 0px 140px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 702;
+}
+
+.Container
+{
+    display: inline-block;
+    background: linear-gradient(#000000, #C4C4C4  );
+    width: 215px;
+    height: 333px;
+    margin:36px 96px 36px 0px;
+}
+
+.Container h2, p
+{
+    font-family:"Roboto", sans-serif; 
+    color: #FFFFFF;
+    margin: 11.83px 0px 11.04px 15.61px;
+}
+.Bcomprar
+{
+    display: inline-block;
+    background-color: #ff0000;
+    padding: 12px 64px 4px 57px;
+    margin: 21.89px 0px 17px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family:"Roboto", sans-serif;
+    color: #FFFFFF;
+
+}
+

@@ -7,7 +7,8 @@
 }
 body
 {
-    height: 2403px;
+    width: 1440px;
+    
 }
 
 .Cabeçalho
@@ -147,7 +148,7 @@ body
 
 .Produto
 {
-    margin: 36px 0px 0px 140px;
+    margin: 20px 0px 0px 93px;
     display: flex;
     flex-wrap: wrap;
     height: 702;
@@ -160,6 +161,7 @@ body
     width: 215px;
     height: 333px;
     margin:36px 96px 36px 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 .Container h2, p
@@ -182,3 +184,89 @@ body
 
 }
 
+footer
+{
+    background: #010101;
+    height: 250px;
+}
+
+
+.Rodape
+{
+    display: inline-flex;
+}
+
+
+
+.Rodape ul
+{
+    margin: 36px 89px 0px 41px;
+    display: inline-block;
+    
+}
+
+.Rodape li
+{
+    padding:  7.35px 11.55px ;
+    font-size: 14px;
+    font-family: "Titillium Web", sans-serif;
+    color:#FFFFFF;
+    list-style-type: circle;
+    content: "\2022";
+}
+
+.Rodape svg
+{
+    margin-top: 35px;
+}
+
+.Rodape h1
+{
+    font-size: 24px;
+    font-family: "Titillium Web", sans-serif;
+    color: #FFFFFF;
+}
+
+.CadastroClan
+{
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.CadastroClan p
+{
+    font-size: 16px;
+    font-family:"Titillium Web", sans-serif ;
+    margin-left: 0px;
+}
+
+.CadastroClan input
+{
+    width: 195px;
+    height: 38.87px;
+    font-size: 24px;
+}
+
+.CadastroClan button
+{
+    width: 156px;
+    height: 39.87px;
+    background: #001F70;
+    font-size: 24px;
+    font-family: "Titillium Web", sans-serif;
+   
+    color: #FFFFFF;
+}
+
+.CadastroClan h2
+{
+    font-size: 23px;
+    color: #FFFFFF;
+    font-family:"Titillium Web", sans-serif;
+    margin-top: 10px;
+}
+
+.CadastroClan img
+{
+    margin-right: 5px;
+}

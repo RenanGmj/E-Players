@@ -2,32 +2,25 @@
 {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     
-}
-body
-{
-    width: 1440px;
     
 }
 
-.Cabeçalho
+
+header
 {
     background: #1E1C21;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.Logo
-{
-    width: 282px;
-    height: 30.75px;
-    margin: 25.62px 0px 25.62px 140px;
-    
-}
+
 
 .Menu
 {
     margin: 29.73px 0px 28.07px 200px;
+    
 }
 
 .ItensMenu
@@ -35,7 +28,7 @@ body
     text-decoration: none;
     font-size: 20px;
     font-family: "Roboto", sans-serif;
-    padding-left: 20px;
+    margin-left: 21px;
     color: #fff;
 }
 

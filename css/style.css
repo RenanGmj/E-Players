@@ -31,235 +31,160 @@ header
     margin-left: 21px;
     color: #fff;
 }
+/* Main Styles */
 
-.CarrosselInscricao
+.Carousel
 {
-    background: linear-gradient(to right, #ff0000, #000000);
+    background-image:url('../assets/img/f1_banner.png.');
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+
+    height: 607px;
     display: flex;
+    justify-content: end;
+    
 }
 
-.Banner
-{
-    margin: 31px 0px 0px 59px;
+.Inscricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 27px
 }
 
-
-
-.Inscricao h1
-{
-    margin-top: 190px;
-    color: aliceblue;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+.Inscricao h1{
+    font-family: sans-serif, "Titillium Web";
     font-size: 80px;
-    
-    
+    color: #fff;
 }
 
-.CarrosselInscricao p
-{
+.Inscricao p{
     font-size: 25px;
-    font-family: "Roboto", sans-serif;
+    font-family: sans-serif;
     color: #fff;
-    margin:19.09px 0px 0px 52.14px
-    
 }
-.CarrosselInscricao div
-{
-    
-    width: 257px;
-    height: 63px;
-    margin: 60.48px 0px 0px 139.14px;
-    padding: 16.14px 0px 16.14px 65px;
-    border-radius: 15px;
+
+.Inscricao a{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+
     background-color: #C31616;
-    
-    
-}
-
-.CarrosselInscricao a
-{
-    text-decoration: none;
-    color: #fff;
-    font-size: 25px;
-    font-family: "Roboto", sans-serif;
-    
-}
-
-.ListaDeJogos
-{
-    display: flex;
-    background: #000000;
-    height: 121px;
-}
-
-.ListaDeJogos ul
-{
-    display: flex;
-}
-
-.ListaDeJogos li
-{
-    padding-left: 94px;
-}
-
-.im1
-{
-    margin-top: 41px;
-}
-.im2
-{
-    margin-top: 32px;
-}
-.im3
-{
-    margin-top: 29px;
-}
-.im4
-{
-    margin-top: 49px;
-}
-.im5
-{
-    margin-top: 36px;
-}
-
-.Ofertas
-{
-    background: #1E1C21;
-}
-.SubT
-{
-    display: inline-block;
-    color: #fff;
-    font-size: 27px;
-    font-family: "Roboto", sans-serif;
-    margin: 29px 0px 0px 140px;
-
-}
-
-.Produto
-{
-    margin: 20px 0px 0px 93px;
-    display: flex;
-    flex-wrap: wrap;
-    height: 702;
-}
-
-.Container
-{
-    display: inline-block;
-    background: linear-gradient(#000000, #C4C4C4  );
-    width: 215px;
-    height: 333px;
-    margin:36px 96px 36px 0px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-}
-
-.Container h2, p
-{
-    font-family:"Roboto", sans-serif; 
-    color: #FFFFFF;
-    margin: 11.83px 0px 11.04px 15.61px;
-}
-.Bcomprar
-{
-    display: inline-block;
-    background-color: #ff0000;
-    padding: 12px 64px 4px 57px;
-    margin: 21.89px 0px 17px 16px;
+    padding-inline: 48px;
+    padding-block: 16.14px;
     border-radius: 10px;
-    font-size: 14px;
-    text-decoration: none;
-    font-family:"Roboto", sans-serif;
-    color: #FFFFFF;
-
 }
 
-footer
-{
-    background: #010101;
-    height: 250px;
+.listaJogos{
+    background-color: black;
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
 }
 
+.produtos{
+    background-color: #1E1C21;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 36px;
 
-.Rodape
-{
-    display: inline-flex;
+
+}
+.produtos h2{
+    font-family: sans-serif, "Roboto";
+    font-size: 27px;
+    color: #fff;
+    align-self: baseline;
+    margin-top: 24px;
 }
 
+.container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
 
+    row-gap: 36px;
+    column-gap: 85px;
 
-.Rodape ul
-{
-    margin: 36px 89px 0px 41px;
-    display: inline-block;
+    margin-bottom: 60px;
     
 }
 
-.Rodape li
-{
-    padding:  7.35px 11.55px ;
-    font-size: 14px;
-    font-family: "Titillium Web", sans-serif;
-    color:#FFFFFF;
-    list-style-type: circle;
-    content: "\2022";
+.produto{
+    background: linear-gradient(to top, #000000, #C4C4C4 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+    
 }
 
-.Rodape svg
-{
-    margin-top: 35px;
+.produto h3{
+    font-family: sans-serif, "Roboto";
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
 }
 
-.Rodape h1
-{
-    font-size: 24px;
-    font-family: "Titillium Web", sans-serif;
-    color: #FFFFFF;
-}
-
-.CadastroClan
-{
-    margin-left: 100px;
-    margin-top: 35px;
-}
-
-.CadastroClan p
-{
+.produto p{
+    font-family: sans-serif, "Roboto";
     font-size: 16px;
-    font-family:"Titillium Web", sans-serif ;
-    margin-left: 0px;
+    font-weight: 600;
+    color: #fff;
 }
 
-.CadastroClan input
-{
-    width: 195px;
-    height: 38.87px;
+.produto h4{
+    font-family: sans-serif, "Roboto";
     font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
 }
 
-.CadastroClan button
-{
-    width: 156px;
-    height: 39.87px;
-    background: #001F70;
-    font-size: 24px;
-    font-family: "Titillium Web", sans-serif;
-   
-    color: #FFFFFF;
+.produto a{
+    font-family: sans-serif, "Roboto";
+    font-size: 14px;
+    color: #fff;
+
+    background-color: #C31616;
+    padding-inline: 57px;
+    padding-block: 12px;
+    border-radius: 10px;
 }
 
-.CadastroClan h2
-{
-    font-size: 23px;
-    color: #FFFFFF;
-    font-family:"Titillium Web", sans-serif;
-    margin-top: 10px;
+.Container-info{
+    background-image: url('../assets/img/Fundodefundo.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.CadastroClan img
-{
-    margin-right: 5px;
+.texto-info{
+    color: #fff;
+    font-family: sans-serif, "Roboto";
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 524px;
+
+}
+
+.texto-info h5{
+    
+    font-size: 35px;
+
 }

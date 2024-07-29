@@ -188,3 +188,34 @@ header
     font-size: 35px;
 
 }
+
+
+/* Estilização da footer */
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    color: #fff;
+    background-color: #010101;
+}
+.rodape ul{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.rodape ul li{
+    font-family: sans-serif, "Roboto";
+    font-size: 14px;
+    font-weight: 600;
+
+    
+
+}
+
+
+.titulolist{
+    font-family: sans-serif, "Roboto";
+    font-size: 24px;
+}

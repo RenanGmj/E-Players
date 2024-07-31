@@ -192,9 +192,11 @@ header
 
 /* Estilização da footer */
 .rodape{
+    height: 249px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 
     color: #fff;
     background-color: #010101;
@@ -214,8 +216,54 @@ header
 
 }
 
-
 .titulolist{
     font-family: sans-serif, "Roboto";
     font-size: 24px;
+}
+
+.email-midias{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.email-midias p{
+    font-size: 16px;
+    font-family: sans-serif, "Titillium Web";
+}
+
+.campo-email{
+    display: flex;
+}
+
+.campo-email input{
+    width: 195px;
+    height: 38px;
+
+    font-size: 26px;
+}
+
+.campo-email button{
+    width: 156px;
+    background-color: #001F70;
+
+    font-size: 24px;
+    font-family: sans-serif, "Titillium Web" ;
+    font-weight: 600;
+    color: #fff;
+
+    border: none;
+}
+
+.midias{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+
+    font-family: sans-serif, "Titillium web";
+    font-size: 23px;
+    font-weight: 600;
+    
+    
 }

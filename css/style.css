@@ -89,6 +89,7 @@ header
 
 .produtos{
     background-color: #1E1C21;
+    height: 859px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -112,9 +113,9 @@ header
     justify-items: center;
 
     row-gap: 36px;
-    column-gap: 85px;
+    column-gap: 54px;
 
-    margin-bottom: 60px;
+    
     
 }
 
@@ -152,6 +153,8 @@ header
 .produto a{
     font-family: sans-serif, "Roboto";
     font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
     color: #fff;
 
     background-color: #C31616;
